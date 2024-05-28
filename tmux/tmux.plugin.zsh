@@ -12,7 +12,8 @@ fi
 # Automatically connect to a previous session if it exists
 : ${ZSH_TMUX_AUTOCONNECT:=true}
 # Automatically close the terminal when tmux exits
-: ${ZSH_TMUX_AUTOQUIT:=$ZSH_TMUX_AUTOSTART}
+# : ${ZSH_TMUX_AUTOQUIT:=$ZSH_TMUX_AUTOSTART}
+: ${ZSH_TMUX_AUTOQUIT:=false}
 # Automatically name the new session based on the basename of PWD
 : ${ZSH_TMUX_AUTONAME_SESSION:=false}
 # Set term to screen or screen-256color based on current terminal support
